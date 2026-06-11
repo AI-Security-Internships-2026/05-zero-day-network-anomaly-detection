@@ -1,6 +1,6 @@
 # Week 1 Tasks — Zero-Day Network Anomaly Detection with Deep Learning
 
-**Target branch:** `your-name-week-01`
+**Target branch:** `kanwar-azlan-week-01`
 **PR target:** `dev`
 **Due:** End of Week 1
 

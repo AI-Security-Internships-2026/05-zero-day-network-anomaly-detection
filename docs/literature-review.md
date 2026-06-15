@@ -31,35 +31,6 @@ and Nathaniel D. Bastian , Senior Member, IEEE |
 | **Limitation** | Despite its real-time processing benefits, the paper notes a constraint regarding the framework's initial setup overhead. The GTAE-IDS architecture requires a slightly longer offline training runtime compared to existing flow-based GNN approaches in the literature. Specifically, the model requires 5.43 hours of initial training time on the tested hardware infrastructure. This added computational footprint is driven by the complex computational requirements of incorporating a transformer-based design within the encoder segment. However, the authors argue that this increased initial training time is a one-time deployment investment that does not interfere with or degrade its swift real-time execution capabilities once operational. |
 | **Relevance to our project** | This paper is highly relevant to our project as it also works on autoencoder based anomaly detection using network traffic dataset. These approaches can be very helpful in demonstrating the capability of the model and it's performance in detecting attacks specially zero-day. |
 
-**Notes / Quotes:**
-> _Paste important quotes or your personal notes here._
-
----
-
-## Reference Table (Quick Overview)
-
-| # | Title (short) | Authors | Year | Method | Dataset | Relevance |
-|---|---|---|---|---|---|---|
-| 1 | GTAE-IDS | Jalal Ghadermazi , Soumyadeep Hore , Graduate Student Member, IEEE, Ankit Shah , Senior Member, IEEE,
-and Nathaniel D. Bastian , Senior Member, IEEE | 2025 | The GTAE-IDS framework operates as an unsupervised, packet-based network intrusion detection system designed for near real-time traffic analysis. The process is structured into two main components: Graph Generation and Anomaly Detection. | CIC-IDS2017, CIC-IDS2018, ACI-IoT2023 | it also works on autoencoder based anomaly detection using network traffic dataset. |
-| 2 | | | | | | |
-| 3 | | | | | | |
-| 4 | | | | | | |
-| 5 | | | | | | |
-
----
-
-## Tools and Datasets Identified
-
-| Name | Type | URL | Notes |
-|---|---|---|---|
-| CIC-IDS2017 | Dataset | https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset | - |
-| CIC-IDS2018 | Dataset | https://www.kaggle.com/datasets/primus11/cic-ids-2018-dataset | - |
-| ACI-IoT2023 | Dataset | https://www.kaggle.com/datasets/emilynack/aci-iot-network-traffic-dataset-2023 | - |
-| Wireshark | Library / Tool | https://www.wireshark.org/download.html | - |
-| Grid Search | Library / Tool | https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html | - |
-
-
 ### Paper 2 — FL for Detection Using AE and GMM
 
 | Field | Content |
@@ -75,6 +46,7 @@ autoencoders and Gaussian mixture models |
 | **Key result** | The combined VAE and GMM model demonstrated notable performance jumps over traditional unsupervised baselines and supervised paradigms. In a detailed client division test focused on vehicles grouping around 298 optimal GMM components, the VAE model reached a localized encoder reconstruction accuracy of 97.2% at an optimized learning rate of $lr = 0.05$. When evaluating the absolute combined accuracy of the model (incorporating both the initial GMM screening and the VAE feature reconstruction layers), the system achieved a total structural accuracy of 82.4%, a precision of 67.2%, an F1-score of 77.5%, and an exceptional recall rate of 96.8%. Pairwise statistical checks using Kruskal-Wallis and Wilcoxon tests validated that the VAE significantly outperformed standard deterministic Autoencoders (AE). Furthermore, ablation analyses demonstrated that omitting the VAE tier dropped pure GMM tracking accuracy to 76%, whereas skipping the GMM altogether to rely solely on raw VAE error detection bottomed out accuracy at just 58.7%. |
 | **Limitation** | The initial calibration phase mandates an entirely benign dataset to train both the GMM profiling and the VAE feature extractors properly. Securing a completely clean, attack-free dataset across an open vehicular network can be resource-intensive and structurally difficult to enforce. he mathematical optimization of the GMM relies heavily on the assumption that the operational dataset parameters align with normal Gaussian curves. If real-world road and networking conditions produce skewed or non-Gaussian feature bounds, the generalizability and performance of the model may degrade. Increasing the granularity and number of cluster components drastically escalates the processing duration. Running the iterative silhouette analysis phase to configure 300 optimal parameters required up to 110,132 seconds (nearly 30.5 hours), posing a steep processing overhead during model initialization. |
 | **Relevance to our project** | This paper shows the autoencoder model used with GMM for the unsupervised learning dataset and acheived 97.2% accuracy rate with state-of-the-art models. This will effect can be used train and test our model. |
+
 
 **Notes / Quotes:**
 > _Paste important quotes or your personal notes here._
@@ -98,6 +70,19 @@ and Nathaniel D. Bastian , Senior Member, IEEE | 2025 | The GTAE-IDS framework o
 
 | Name | Type | URL | Notes |
 |---|---|---|---|
+| CIC-IDS2017 | Dataset | https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset | - |
+| CIC-IDS2018 | Dataset | https://www.kaggle.com/datasets/primus11/cic-ids-2018-dataset | - |
+| ACI-IoT2023 | Dataset | https://www.kaggle.com/datasets/emilynack/aci-iot-network-traffic-dataset-2023 | - |
+| Wireshark | Library / Tool | https://www.wireshark.org/download.html | - |
+| Grid Search | Library / Tool | https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html | - |
 | VeRMi | Dataset | [https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset](https://www.kaggle.com/datasets/haider094/veremi-dataset) | - |
 | Viens | Library / Tool | [https://www.wireshark.org/download.html](https://veins.car2x.org/) | - |
+
+
+**Notes / Quotes:**
+_This literature review file has been updated in the following manner:_
+
+_1. The details of the research paper has been attached under "Paper Summary Template"._
+_2. The "Quick Reference" Table has been updated with all the contents of the research papers for a quick overview._
+_3. All the datasets, tools and libraries were combined under the "Tools and Datasets Identified" table._
 

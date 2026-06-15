@@ -20,8 +20,7 @@ Use Google Scholar, IEEE Xplore, ACM DL, arXiv, or USENIX Security.
 | Field | Content |
 |---|---|
 | **Full title** | Graph Transformer-Based Autoencoder Framework for Real-Time Network Intrusion Detection |
-| **Authors** | Jalal Ghadermazi , Soumyadeep Hore , Graduate Student Member, IEEE, Ankit Shah , Senior Member, IEEE,
-and Nathaniel D. Bastian , Senior Member, IEEE |
+| **Authors** | Jalal Ghadermazi , Soumyadeep Hore , Graduate Student Member, IEEE, Ankit Shah , Senior Member, IEEE, and Nathaniel D. Bastian , Senior Member, IEEE |
 | **Year** | 2025 |
 | **Venue** | Journal |
 | **URL / DOI** | https://doi.org/10.1109/TIFS.2025.3557741 |

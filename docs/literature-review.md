@@ -45,20 +45,20 @@ Use Google Scholar, IEEE Xplore, ACM DL, arXiv, or USENIX Security.
 | **Limitation** | The initial calibration phase mandates an entirely benign dataset to train both the GMM profiling and the VAE feature extractors properly. Securing a completely clean, attack-free dataset across an open vehicular network can be resource-intensive and structurally difficult to enforce. he mathematical optimization of the GMM relies heavily on the assumption that the operational dataset parameters align with normal Gaussian curves. If real-world road and networking conditions produce skewed or non-Gaussian feature bounds, the generalizability and performance of the model may degrade. Increasing the granularity and number of cluster components drastically escalates the processing duration. Running the iterative silhouette analysis phase to configure 300 optimal parameters required up to 110,132 seconds (nearly 30.5 hours), posing a steep processing overhead during model initialization. |
 | **Relevance to our project** | This paper shows the autoencoder model used with GMM for the unsupervised learning dataset and acheived 97.2% accuracy rate with state-of-the-art models. This will effect can be used train and test our model. |
 
-### Paper 3 — Name...
+### Paper 3 — A Self-Adaptive Intrusion Detection System for Zero-Day Attacks Using Deep Q-Networks
 
 | Field | Content |
 |---|---|
-| **Full title** |  |
-| **Authors** |  |
-| **Year** |  |
-| **Venue** |  |
-| **URL / DOI** |  |
-| **Method** |  |
-| **Dataset** |  |
-| **Key result** |  |
-| **Limitation** |  |
-| **Relevance to our project** |  |
+| **Full title** | A Self-Adaptive Intrusion Detection System for Zero-Day Attacks Using Deep Q-Networks |
+| **Authors** | Mouhammd Alkasassbeh; Ebtehal H. Omoush; Mohammad Almseidin; Amjad Aldweesh |
+| **Year** | 2025 |
+| **Venue** | Journal |
+| **URL / DOI** | https://doi.org/10.1109/ACCESS.2025.3617792 |
+| **Method** | This section presents the design and implementation of the proposed DQN-based intrusion detection system (IDS), which is evaluated using multiple experiments on the UGRansome dataset. The methodology comprises data preprocessing, environment modeling, agent design, training configuration, and evaluation strategies. First, incomplete records were removed to ensure data quality. Subsequently, features with high cardinality, such as SeedAddress, ExpAddress, and IPaddress, were eliminated to reduce the risk of overfitting. In addition, categorical attributes, including Protocol, Flag, Family, and Threats, were then transformed into a numerical format using the label encoding technique. |
+| **Dataset** | UGRansome |
+| **Key result** | the proposed self-learning IDS, leveraging Deep Q-Networks, has demonstrated its effectiveness in detecting both known and zero-day ransomware attacks with high accuracy and strong generalization capabilities across various classification scenarios. These findings underscore the potential of reinforcement learning as a robust and adaptive foundation for real-time intrusion detection in evolving threat landscapes |
+| **Limitation** | the main limitations revolve around the computational expense of training and the interpretability of the model's decisions. However, the paper also outlines clear directions for future research to enhance the system's capabilities and address these challenges, particularly in terms of adaptability, explainability, and real-world deployment. |
+| **Relevance to our project** | The paper proposed unsupervised learning framework to detect zero day attacks with Deep Q-Networks. This can be useful in understanding our own project model which is also based on Autoencoders-deep neural network. |
 
 ### Paper 4 — Name...
 
@@ -173,7 +173,7 @@ Use Google Scholar, IEEE Xplore, ACM DL, arXiv, or USENIX Security.
 |---|---|---|---|---|---|---|
 | 1 | GTAE-IDS | Jalal Ghadermazi , Soumyadeep Hore , Graduate Student Member, IEEE, Ankit Shah , Senior Member, IEEE, and Nathaniel D. Bastian , Senior Member, IEEE | 2025 | The GTAE-IDS framework operates as an unsupervised, packet-based network intrusion detection system designed for near real-time traffic analysis. The process is structured into two main components: Graph Generation and Anomaly Detection. | CIC-IDS2017, CIC-IDS2018, ACI-IoT2023 | it also works on autoencoder based anomaly detection using network traffic dataset. |
 | 2 | FL for Detection Using AE and GMM | Enrique Mármol Campos1, Aurora Gonzalez-Vidal1, José L. Hernández-Ramos1, Antonio Skarmeta1 | 2025 | The paper presents an unsupervised, cloud-based Federated Learning (FL) framework designed to detect potential misbehavior in vehicular environments (such as vehicles transmitting false or malicious data). The framework avoids supervised training entirely and is executed over three distinct sequential phases: Local Density Estimation, Local Feature Extraction and Federated Fine-Tuning, Local Misbehavior Classification. | VerMi | This paper shows the autoencoder model used with GMM for the unsupervised learning dataset and acheived 97.2% accuracy rate with state-of-the-art models. This will effect can be used train and test our model. |
-| 3 | | | | | | |
+| 3 | A Self-Adaptive IDS for Zero-Day Using DQN | Mouhammd Alkasassbeh; Ebtehal H. Omoush; Mohammad Almseidin; Amjad Aldweesh | 2025 | This section presents the design and implementation of the proposed DQN-based intrusion detection system (IDS), which is evaluated using multiple experiments on the UGRansome dataset. The methodology comprises data preprocessing, environment modeling, agent design, training configuration, and evaluation strategies. First, incomplete records were removed to ensure data quality. Subsequently, features with high cardinality, such as SeedAddress, ExpAddress, and IPaddress, were eliminated to reduce the risk of overfitting. In addition, categorical attributes, including Protocol, Flag, Family, and Threats, were then transformed into a numerical format using the label encoding technique. | UGRansome | The paper proposed unsupervised learning framework to detect zero day attacks with Deep Q-Networks. This can be useful in understanding our own project model which is also based on Autoencoders-deep neural network. |
 | 4 | | | | | | |
 | 5 | | | | | | |
 | 6 | | | | | | |
@@ -195,6 +195,14 @@ Use Google Scholar, IEEE Xplore, ACM DL, arXiv, or USENIX Security.
 | Grid Search | Library / Tool | https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html | - |
 | VeRMi | Dataset | [https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset](https://www.kaggle.com/datasets/haider094/veremi-dataset) | - |
 | Viens | Library / Tool | [https://www.wireshark.org/download.html](https://veins.car2x.org/) | - |
+| UGRansome | Dataset | https://www.kaggle.com/datasets/nkongolo/ugransome-dataset | - |
+| Python | Library / Tool | https://www.python.org | - |
+| Pytorch | Library / Tool | https://www.pytorch.org | - |
+| Pandas | Library / Tool | https://www.Pandas.org | - |
+| Numpy | Library / Tool | https://www.Numpy.org | - |
+| Scikit Learn | Library / Tool | https://www.Scikitlearn.org | - |
+| Matplotlib | Library / Tool | https://www.Matplotlib.org | - |
+
 
 **Notes / Quotes:**
 _This literature review file has been updated in the following manner:_

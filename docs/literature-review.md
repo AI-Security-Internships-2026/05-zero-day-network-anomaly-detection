@@ -56,5 +56,6 @@ and Nathaniel D. Bastian , Senior Member, IEEE | 2025 | The GTAE-IDS framework o
 | CIC-IDS2017 | Dataset | https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset | - |
 | CIC-IDS2018 | Dataset | https://www.kaggle.com/datasets/primus11/cic-ids-2018-dataset | - |
 | ACI-IoT2023 | Dataset | https://www.kaggle.com/datasets/emilynack/aci-iot-network-traffic-dataset-2023 | - |
-| | Library / Tool | | |
+| Wireshark | Library / Tool | https://www.wireshark.org/download.html | - |
+| Grid Search | Library / Tool | https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html | - |
 

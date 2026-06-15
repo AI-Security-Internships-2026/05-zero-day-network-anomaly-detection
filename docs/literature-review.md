@@ -45,6 +45,126 @@ Use Google Scholar, IEEE Xplore, ACM DL, arXiv, or USENIX Security.
 | **Limitation** | The initial calibration phase mandates an entirely benign dataset to train both the GMM profiling and the VAE feature extractors properly. Securing a completely clean, attack-free dataset across an open vehicular network can be resource-intensive and structurally difficult to enforce. he mathematical optimization of the GMM relies heavily on the assumption that the operational dataset parameters align with normal Gaussian curves. If real-world road and networking conditions produce skewed or non-Gaussian feature bounds, the generalizability and performance of the model may degrade. Increasing the granularity and number of cluster components drastically escalates the processing duration. Running the iterative silhouette analysis phase to configure 300 optimal parameters required up to 110,132 seconds (nearly 30.5 hours), posing a steep processing overhead during model initialization. |
 | **Relevance to our project** | This paper shows the autoencoder model used with GMM for the unsupervised learning dataset and acheived 97.2% accuracy rate with state-of-the-art models. This will effect can be used train and test our model. |
 
+### Paper 3 — Name...
+
+| Field | Content |
+|---|---|
+| **Full title** |  |
+| **Authors** |  |
+| **Year** |  |
+| **Venue** |  |
+| **URL / DOI** |  |
+| **Method** |  |
+| **Dataset** |  |
+| **Key result** |  |
+| **Limitation** |  |
+| **Relevance to our project** |  |
+
+### Paper 4 — Name...
+
+| Field | Content |
+|---|---|
+| **Full title** |  |
+| **Authors** |  |
+| **Year** |  |
+| **Venue** |  |
+| **URL / DOI** |  |
+| **Method** |  |
+| **Dataset** |  |
+| **Key result** |  |
+| **Limitation** |  |
+| **Relevance to our project** |  |
+
+### Paper 5 — Name...
+
+| Field | Content |
+|---|---|
+| **Full title** |  |
+| **Authors** |  |
+| **Year** |  |
+| **Venue** |  |
+| **URL / DOI** |  |
+| **Method** |  |
+| **Dataset** |  |
+| **Key result** |  |
+| **Limitation** |  |
+| **Relevance to our project** |  |
+
+### Paper 6 — Name...
+
+| Field | Content |
+|---|---|
+| **Full title** |  |
+| **Authors** |  |
+| **Year** |  |
+| **Venue** |  |
+| **URL / DOI** |  |
+| **Method** |  |
+| **Dataset** |  |
+| **Key result** |  |
+| **Limitation** |  |
+| **Relevance to our project** |  |
+
+### Paper 7 — Name...
+
+| Field | Content |
+|---|---|
+| **Full title** |  |
+| **Authors** |  |
+| **Year** |  |
+| **Venue** |  |
+| **URL / DOI** |  |
+| **Method** |  |
+| **Dataset** |  |
+| **Key result** |  |
+| **Limitation** |  |
+| **Relevance to our project** |  |
+
+### Paper 8 — Name...
+
+| Field | Content |
+|---|---|
+| **Full title** |  |
+| **Authors** |  |
+| **Year** |  |
+| **Venue** |  |
+| **URL / DOI** |  |
+| **Method** |  |
+| **Dataset** |  |
+| **Key result** |  |
+| **Limitation** |  |
+| **Relevance to our project** |  |
+
+### Paper 9 — Name...
+
+| Field | Content |
+|---|---|
+| **Full title** |  |
+| **Authors** |  |
+| **Year** |  |
+| **Venue** |  |
+| **URL / DOI** |  |
+| **Method** |  |
+| **Dataset** |  |
+| **Key result** |  |
+| **Limitation** |  |
+| **Relevance to our project** |  |
+
+### Paper 10 — Name...
+
+| Field | Content |
+|---|---|
+| **Full title** |  |
+| **Authors** |  |
+| **Year** |  |
+| **Venue** |  |
+| **URL / DOI** |  |
+| **Method** |  |
+| **Dataset** |  |
+| **Key result** |  |
+| **Limitation** |  |
+| **Relevance to our project** |  |
+
 ---
 
 ## Reference Table (Quick Overview)
@@ -56,6 +176,11 @@ Use Google Scholar, IEEE Xplore, ACM DL, arXiv, or USENIX Security.
 | 3 | | | | | | |
 | 4 | | | | | | |
 | 5 | | | | | | |
+| 6 | | | | | | |
+| 7 | | | | | | |
+| 8 | | | | | | |
+| 9 | | | | | | |
+| 10 | | | | | | |
 
 ---
 
@@ -70,7 +195,6 @@ Use Google Scholar, IEEE Xplore, ACM DL, arXiv, or USENIX Security.
 | Grid Search | Library / Tool | https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html | - |
 | VeRMi | Dataset | [https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset](https://www.kaggle.com/datasets/haider094/veremi-dataset) | - |
 | Viens | Library / Tool | [https://www.wireshark.org/download.html](https://veins.car2x.org/) | - |
-
 
 **Notes / Quotes:**
 _This literature review file has been updated in the following manner:_

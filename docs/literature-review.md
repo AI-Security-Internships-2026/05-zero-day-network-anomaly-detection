@@ -64,16 +64,17 @@ Use Google Scholar, IEEE Xplore, ACM DL, arXiv, or USENIX Security.
 
 | Field | Content |
 |---|---|
-| **Full title** |  |
-| **Authors** |  |
-| **Year** |  |
-| **Venue** |  |
-| **URL / DOI** |  |
-| **Method** |  |
-| **Dataset** |  |
-| **Key result** |  |
-| **Limitation** |  |
-| **Relevance to our project** |  |
+| **Full title** | An Intellectual Zero Trust Security Framework Using Deep Reinforcement Learning for Predictive Threat Mitigation in AI Based Fraud Detection Systems |
+| **Authors** | Ankur Mahida |
+| **Year** | 2026 |
+| **Venue** | Journal |
+| **URL / DOI** | https://doi.org/10.1109/ACCESS.2026.3664389 |
+| **Method** | The proposed methodology involves the development of an Intelligent Zero Trust Security Framework where Machine Learning algorithm used to train the model is somewhat supervised while anomaly detection takes place, and the predictive mitigation engine is based on the Deep Reinforcement Learning algorithm. The whole system is used over an SDN enabled environment where the controller works as a intermediatory for heightening the flows, evaluating trust policies and enforcing security measures. The objective of the methodology is to change traditional reactive intrusion detection to proactive security model that is able to anticipate and mitigate attacks before they have severe impact. |
+| **Dataset** | IEEE CIS Farud Detection |
+| **Key result** | Evaluation of
+the proposed DRL-Zero Trust model on a benchmark dataset of fraud detection shows that it significantly outperforms classical classifiers, including K Nearest Neighbor (KNN), Random Forest, Logistic Regression (LR) and Support Vector Machine (SVM). The proposed model achieved 98.7% accuracy, 98.4% precision, 98.9% recall and an Area Under the Receiver Operating Characteristic Curve (AUC-ROC) of 0.995, and is better resistant to zero-day attacks and adversarial instances. |
+| **Limitation** |  Deep Reinforcement Learning agent training is computationally expensive and needs to be optimally tuned to reach convergence and stability. Since the quality and representativeness of the training data is critical to the efficiency of the model,even though DRL is more adaptive, highly sparse or biased training data can impact initial learning behaviour. The evaluation of the framework is done on simulated SDN environments and benchmark data, but a real-world deployment can bring other issues, such as encrypted traffic, compliance requirements changes, and integration overhead with existing systems. The explainability of DRL decisions is still not as good as rule-based systems, and this can be a problem in regulatory and forensic analysis scenarios. |
+| **Relevance to our project** | The relevance to our project is the model and technique the paper used. The Unsupervised models like SVM, LR, RF and KNN plus the zero-trust strategy that aligns with our model. |
 
 ### Paper 5 — Name...
 
@@ -174,7 +175,7 @@ Use Google Scholar, IEEE Xplore, ACM DL, arXiv, or USENIX Security.
 | 1 | GTAE-IDS | Jalal Ghadermazi , Soumyadeep Hore , Graduate Student Member, IEEE, Ankit Shah , Senior Member, IEEE, and Nathaniel D. Bastian , Senior Member, IEEE | 2025 | The GTAE-IDS framework operates as an unsupervised, packet-based network intrusion detection system designed for near real-time traffic analysis. The process is structured into two main components: Graph Generation and Anomaly Detection. | CIC-IDS2017, CIC-IDS2018, ACI-IoT2023 | it also works on autoencoder based anomaly detection using network traffic dataset. |
 | 2 | FL for Detection Using AE and GMM | Enrique Mármol Campos1, Aurora Gonzalez-Vidal1, José L. Hernández-Ramos1, Antonio Skarmeta1 | 2025 | The paper presents an unsupervised, cloud-based Federated Learning (FL) framework designed to detect potential misbehavior in vehicular environments (such as vehicles transmitting false or malicious data). The framework avoids supervised training entirely and is executed over three distinct sequential phases: Local Density Estimation, Local Feature Extraction and Federated Fine-Tuning, Local Misbehavior Classification. | VerMi | This paper shows the autoencoder model used with GMM for the unsupervised learning dataset and acheived 97.2% accuracy rate with state-of-the-art models. This will effect can be used train and test our model. |
 | 3 | A Self-Adaptive IDS for Zero-Day Using DQN | Mouhammd Alkasassbeh; Ebtehal H. Omoush; Mohammad Almseidin; Amjad Aldweesh | 2025 | This section presents the design and implementation of the proposed DQN-based intrusion detection system (IDS), which is evaluated using multiple experiments on the UGRansome dataset. The methodology comprises data preprocessing, environment modeling, agent design, training configuration, and evaluation strategies. First, incomplete records were removed to ensure data quality. Subsequently, features with high cardinality, such as SeedAddress, ExpAddress, and IPaddress, were eliminated to reduce the risk of overfitting. In addition, categorical attributes, including Protocol, Flag, Family, and Threats, were then transformed into a numerical format using the label encoding technique. | UGRansome | The paper proposed unsupervised learning framework to detect zero day attacks with Deep Q-Networks. This can be useful in understanding our own project model which is also based on Autoencoders-deep neural network. |
-| 4 | | | | | | |
+| 4 | An Intellectual Zero Trust Security Framework Using Deep Reinforcement Learning for Predictive Threat Mitigation in AI Based Fraud Detection Systems | Ankur Mahida | 2026 | The proposed methodology involves the development of an Intelligent Zero Trust Security Framework where Machine Learning algorithm used to train the model is somewhat supervised while anomaly detection takes place, and the predictive mitigation engine is based on the Deep Reinforcement Learning algorithm. The whole system is used over an SDN enabled environment where the controller works as a intermediatory for heightening the flows, evaluating trust policies and enforcing security measures. The objective of the methodology is to change traditional reactive intrusion detection to proactive security model that is able to anticipate and mitigate attacks before they have severe impact. | IEEE CIS Fraud Detection | The relevance to our project is the model and technique the paper used. The Unsupervised models like SVM, LR, RF and KNN plus the zero-trust strategy that aligns with our model. |
 | 5 | | | | | | |
 | 6 | | | | | | |
 | 7 | | | | | | |
@@ -202,6 +203,7 @@ Use Google Scholar, IEEE Xplore, ACM DL, arXiv, or USENIX Security.
 | Numpy | Library / Tool | https://www.Numpy.org | - |
 | Scikit Learn | Library / Tool | https://www.Scikitlearn.org | - |
 | Matplotlib | Library / Tool | https://www.Matplotlib.org | - |
+| IEEE CIS | Dataset | https://www.kaggle.com/competitions/ieee-fraud-detection | - |
 
 
 **Notes / Quotes:**

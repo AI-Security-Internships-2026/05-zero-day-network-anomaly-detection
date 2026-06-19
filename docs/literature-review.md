@@ -60,7 +60,7 @@ Use Google Scholar, IEEE Xplore, ACM DL, arXiv, or USENIX Security.
 | **Limitation** | the main limitations revolve around the computational expense of training and the interpretability of the model's decisions. However, the paper also outlines clear directions for future research to enhance the system's capabilities and address these challenges, particularly in terms of adaptability, explainability, and real-world deployment. |
 | **Relevance to our project** | The paper proposed unsupervised learning framework to detect zero day attacks with Deep Q-Networks. This can be useful in understanding our own project model which is also based on Autoencoders-deep neural network. |
 
-### Paper 4 — Name...
+### Paper 4 — An Intellectual Zero Trust Security Framework Using Deep Reinforcement Learning for Predictive Threat Mitigation in AI Based Fraud Detection Systems
 
 | Field | Content |
 |---|---|
@@ -75,20 +75,26 @@ Use Google Scholar, IEEE Xplore, ACM DL, arXiv, or USENIX Security.
 | **Limitation** |  Deep Reinforcement Learning agent training is computationally expensive and needs to be optimally tuned to reach convergence and stability. Since the quality and representativeness of the training data is critical to the efficiency of the model,even though DRL is more adaptive, highly sparse or biased training data can impact initial learning behaviour. The evaluation of the framework is done on simulated SDN environments and benchmark data, but a real-world deployment can bring other issues, such as encrypted traffic, compliance requirements changes, and integration overhead with existing systems. The explainability of DRL decisions is still not as good as rule-based systems, and this can be a problem in regulatory and forensic analysis scenarios. |
 | **Relevance to our project** | The relevance to our project is the model and technique the paper used. The Unsupervised models like SVM, LR, RF and KNN plus the zero-trust strategy that aligns with our model. |
 
-### Paper 5 — Name...
+### Paper 5 — Real-Time Automated Cyber Threat Classification and Emerging Threat Detection Framework
 
 | Field | Content |
 |---|---|
-| **Full title** |  |
-| **Authors** |  |
-| **Year** |  |
-| **Venue** |  |
-| **URL / DOI** |  |
-| **Method** |  |
-| **Dataset** |  |
-| **Key result** |  |
-| **Limitation** |  |
-| **Relevance to our project** |  |
+| **Full title** | Real-Time Automated Cyber Threat Classification and Emerging Threat Detection Framework |
+| **Authors** | ALEMAYEHU TILAHUN HAILE, SURAFEL LEMMA ABEBE, HENOCK MULUGETA MELAKU |
+| **Year** | 2025 |
+| **Venue** | Journal |
+| **URL / DOI** | [https://www.computer.org/csdl/journal/oj/2025/01/11037544/27B92crSfKw (https://doi.ieeecomputersociety.org/10.1109/OJCS.2025.3580235) |
+| **Method** | This section presents the proposed framework, which outlines the full pipeline from data acquisition to classification and emerging threat analysis. We incorporate approaches adapted from prior CTI studies which demonstrated automated intelligence extraction and
+classification from unstructured online sources. We collected CTI data shared by cybersecurity agents on the surface web, deep web, and dark web. Data collected from the surface web, deep web, and dark web are typically unstructured and noisy; therefore, the data must be preprocessed comprehensively before constructing the final CTI datasets. To construct a binary classification dataset, relevant and irrelevant labels were applied to the data. Posts containing cybersecurity-pertinent keywords were labeled as relevant. We applied basic and advanced
+feature engineering methods for ML and DL, respectively. We also used conventional feature engineering techniques to prepare our textual data for ML models. The next step in our methodology is to classify textual data, identify relevant posts, and categorize them into specific types
+of cyber threats. We used both ML and DL models for binary and multiclass classification tasks. Traditional security solutions that rely on signature-based detection face serious problems from emerging cybersecurity threats, such as zero-day attacks, as these systems have trouble
+identifying previously unseen cyber threats. |
+| **Dataset** | cyber threat intelligence (CTI) |
+| **Key result** | This
+approach allows for the identification of zero-day attacks and other emerging threats by monitoring shifts in topics. Using a support vector machine with the bag-of-words (binary term weight) model achieved the highest accuracies of 93.67 and 96.35 for binary and multiclass classifications, respectively. Moreover, LDA and NMF were used to extract the top topics from various numbers of topics. The LDA model is well suited for identifying emerging trends and useful for real-time threat monitoring in cybersecurity. |
+| **Limitation** | we aim to enhance the adaptability of the classification component by integrating automatic category discovery methods.
+We will use techniques such as clustering, neural embedding models, or unsupervised topic modeling to detect latent or evolving threat categories without relying on predefined labels. This approach will improve detection of unknown threats and allow the framework to remain effective in a dynamic cyber environment. |
+| **Relevance to our project** | The relevance is high as we aim to detect zero-day attacks using state-of-the-art models but this CTI dataset plus the capability of classifying the dataset is also very relevant to the scope of this zero-day attack detection research. |
 
 ### Paper 6 — Name...
 
@@ -175,7 +181,7 @@ Use Google Scholar, IEEE Xplore, ACM DL, arXiv, or USENIX Security.
 | 2 | FL for Detection Using AE and GMM | Enrique Mármol Campos1, Aurora Gonzalez-Vidal1, José L. Hernández-Ramos1, Antonio Skarmeta1 | 2025 | The paper presents an unsupervised, cloud-based Federated Learning (FL) framework designed to detect potential misbehavior in vehicular environments (such as vehicles transmitting false or malicious data). The framework avoids supervised training entirely and is executed over three distinct sequential phases: Local Density Estimation, Local Feature Extraction and Federated Fine-Tuning, Local Misbehavior Classification. | VerMi | This paper shows the autoencoder model used with GMM for the unsupervised learning dataset and acheived 97.2% accuracy rate with state-of-the-art models. This will effect can be used train and test our model. |
 | 3 | A Self-Adaptive IDS for Zero-Day Using DQN | Mouhammd Alkasassbeh; Ebtehal H. Omoush; Mohammad Almseidin; Amjad Aldweesh | 2025 | This section presents the design and implementation of the proposed DQN-based intrusion detection system (IDS), which is evaluated using multiple experiments on the UGRansome dataset. The methodology comprises data preprocessing, environment modeling, agent design, training configuration, and evaluation strategies. First, incomplete records were removed to ensure data quality. Subsequently, features with high cardinality, such as SeedAddress, ExpAddress, and IPaddress, were eliminated to reduce the risk of overfitting. In addition, categorical attributes, including Protocol, Flag, Family, and Threats, were then transformed into a numerical format using the label encoding technique. | UGRansome | The paper proposed unsupervised learning framework to detect zero day attacks with Deep Q-Networks. This can be useful in understanding our own project model which is also based on Autoencoders-deep neural network. |
 | 4 | An Intellectual Zero Trust Security Framework Using Deep Reinforcement Learning for Predictive Threat Mitigation in AI Based Fraud Detection Systems | Ankur Mahida | 2026 | The proposed methodology involves the development of an Intelligent Zero Trust Security Framework where Machine Learning algorithm used to train the model is somewhat supervised while anomaly detection takes place, and the predictive mitigation engine is based on the Deep Reinforcement Learning algorithm. The whole system is used over an SDN enabled environment where the controller works as a intermediatory for heightening the flows, evaluating trust policies and enforcing security measures. The objective of the methodology is to change traditional reactive intrusion detection to proactive security model that is able to anticipate and mitigate attacks before they have severe impact. | IEEE CIS Fraud Detection | The relevance to our project is the model and technique the paper used. The Unsupervised models like SVM, LR, RF and KNN plus the zero-trust strategy that aligns with our model. |
-| 5 | | | | | | |
+| 5 | Real-Time Automated Cyber Threat Classification and Emerging Threat Detection Framework | ALEMAYEHU TILAHUN HAILE, SURAFEL LEMMA ABEBE, HENOCK MULUGETA MELAKU | 2025 | This section presents the proposed framework, which outlines the full pipeline from data acquisition to classification and emerging threat analysis. We incorporate approaches adapted from prior CTI studies which demonstrated automated intelligence extraction and classification from unstructured online sources. We collected CTI data shared by cybersecurity agents on the surface web, deep web, and dark web. Data collected from the surface web, deep web, and dark web are typically unstructured and noisy; therefore, the data must be preprocessed comprehensively before constructing the final CTI datasets. To construct a binary classification dataset, relevant and irrelevant labels were applied to the data. Posts containing cybersecurity-pertinent keywords were labeled as relevant. We applied basic and advanced feature engineering methods for ML and DL, respectively. We also used conventional feature engineering techniques to prepare our textual data for ML models. The next step in our methodology is to classify textual data, identify relevant posts, and categorize them into specific types of cyber threats. We used both ML and DL models for binary and multiclass classification tasks. Traditional security solutions that rely on signature-based detection face serious problems from emerging cybersecurity threats, such as zero-day attacks, as these systems have trouble identifying previously unseen cyber threats. | Cyber Threat Intelligence (CTI) | The relevance is high as we aim to detect zero-day attacks using state-of-the-art models but this CTI dataset plus the capability of classifying the dataset is also very relevant to the scope of this zero-day attack detection research. |
 | 6 | | | | | | |
 | 7 | | | | | | |
 | 8 | | | | | | |
@@ -203,7 +209,7 @@ Use Google Scholar, IEEE Xplore, ACM DL, arXiv, or USENIX Security.
 | Scikit Learn | Library / Tool | https://www.Scikitlearn.org | - |
 | Matplotlib | Library / Tool | https://www.Matplotlib.org | - |
 | IEEE CIS | Dataset | https://www.kaggle.com/competitions/ieee-fraud-detection | - |
-
+| CIT | Dataset | https://www.kaggle.com/datasets/ziya07/anomaly-detection-and-threat-intelligence-dataset | - |
 
 **Notes / Quotes:**
 _This literature review file has been updated in the following manner:_

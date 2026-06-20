@@ -15,7 +15,7 @@ Be honest — problems and blockers are normal and help your supervisor support 
 ## Week 1
 
 **Branch:** `kanwar-azlan-week-01`
-**PR link:** _[Add link after opening PR](https://github.com/AI-Security-Internships-2026/05-zero-day-network-anomaly-detection/pull/1)_
+**PR link:** _(https://github.com/AI-Security-Internships-2026/05-zero-day-network-anomaly-detection/pull/1)_
 
 ### Completed this week
 - [x] Read README and proposal
@@ -44,17 +44,22 @@ _While Implementing the tasks and installing the requirements, I encountered an 
 
 ## Week 2
 
-**Branch:** `your-name-week-02`
-**PR link:** _[Add link after opening PR]_
+**Branch:** `kanwar-azlan-week-02`
+**PR link:** _(https://github.com/AI-Security-Internships-2026/05-zero-day-network-anomaly-detection/pull/4)_
 
 ### Completed this week
--
+1. _Literature review of 5 papers._
+2. _Proposal.md file (Sections 3 and 4)._
+3. _Downloaded the CIC-IDS2017 dataset._
 
 ### Problems / Blockers
--
+1. _Some of the research papers were locked on IEEE explore which somewhat becomes a hurdle, But I still managed to collect relevant and important research papers._
+2. _The no. of instances in the dataset is huge (more than 6 Lakhs), had to preprocess or extract a small bunch of data for implementation._
 
 ### Next week plan
--
+1. _Starting the implementation._
+2. _Try  dataset preparation and preprocessing techniques._
+3. _Add code block in the repo._
 
 ---
 

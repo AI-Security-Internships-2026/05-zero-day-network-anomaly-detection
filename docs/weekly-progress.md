@@ -63,4 +63,22 @@ _While Implementing the tasks and installing the requirements, I encountered an 
 
 ---
 
+## Week 3
+
+**Branch:** `kanwar-azlan-week-02`
+**PR link:** __
+
+### Completed this week
+1. __
+
+### Problems / Blockers
+1. __
+
+### Next week plan
+1. __
+
+---
+
+
+
 _(Add a new section each week)_

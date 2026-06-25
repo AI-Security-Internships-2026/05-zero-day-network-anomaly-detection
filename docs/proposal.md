@@ -66,7 +66,7 @@ _The evaluation will be done using Confusion Metrics:_
 
 ## 5. Expected Outcome
 
-_Describe the expected deliverable: a prototype, a benchmark, a dataset, a paper draft, etc._
+_A proposed framework which detects zero-day attacks in network traffic using Deep learning based Autoencoder Model. A network packet containing features like IP, Src, Dst, Port and other relevant ones, when passed in an intrusion detection system (IDS) it preprocess the dataset by neglecting NAN and NULL values and removing the 'Label' column. Then it is trained on benign data only so that the framework will remain in unsupervised manner. Once the model is trained, we test it with out testing dataset containing attack and benign data. The result will show the percentage of the data points that wil be classified as outliers (anomalies) and some as normal (benign). The performance of the model is measured using confusion metrics which displays the false positives, false negative, true positives, true negatives, overall precision, recall, F1-measures and overall accuracy of the model._
 
 ---
 
@@ -77,6 +77,8 @@ _Describe the expected deliverable: a prototype, a benchmark, a dataset, a paper
 | Dataset not publicly available | Medium | Use synthetic data or reach out to CNIT partners |
 | Compute resources insufficient | Low | Use university HPC cluster |
 | Scope too broad | High | Focus on one sub-problem; extend if time allows |
+| RAM Usage | High | Use installed servers (is possible) |
+
 
 ---
 

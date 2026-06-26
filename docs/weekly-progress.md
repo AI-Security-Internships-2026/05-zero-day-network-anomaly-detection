@@ -65,17 +65,23 @@ _While Implementing the tasks and installing the requirements, I encountered an 
 
 ## Week 3
 
-**Branch:** `kanwar-azlan-week-02`
+**Branch:** `kanwar-azlan-week-03`
 **PR link:** __
 
 ### Completed this week
-1. __
+1. _Completed literature review with all 10 papers._
+2. _Compiled the code in main.py file._
+3. _Completed Sections 5 and 6 of Proposal.md file._
 
 ### Problems / Blockers
-1. __
+1. _Initially planned of putting code components in separate files. But for clean and proper code comilation, Compiled in single file._
+2. _Finding recent literature in 2023 and 2026 window is quiet challenging, but I classified them in an umbrella of zero-day attack detection with multiple sub-domains like IoT, Blockhain, Network Security etc._
 
 ### Next week plan
-1. __
+1. _Installing Zeek and Suricata._
+2. _Installing PCAP files of CIC-IDS2017 Dataset._
+3. _Replay the traffic using Zeek and Suricata._
+4. _Witing Python script for parsing JSON data._
 
 ---
 

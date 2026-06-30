@@ -34,9 +34,9 @@ _Existing studies on zero-day attack detection persist several key limitations i
 
 ### 4.1 Data Collection / Dataset
 
-_For this project we are starting with CIC-IDS2017 Benchmark Dataset. You can access the dataset using the link below:_
+_For this project we are starting with CIC-IoT2023 Benchmark Dataset. You can access the dataset using the link below:_
 
-_https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset_
+_https://www.kaggle.com/datasets/himadri07/ciciot2023_
 
 ### 4.2 Approach
 
